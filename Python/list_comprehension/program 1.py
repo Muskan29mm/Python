@@ -1,5 +1,6 @@
 # Python list_comprehension
 
+
 fruits = ["Apple", "Banana", "Cherry", "Mango", "papaya", "pineapple", "kiwi"]
 
 new_list = [x for x in fruits if "a" in x]
