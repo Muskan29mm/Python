@@ -1,0 +1,12 @@
+# Program to check if number is prime or not
+
+def prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+    return True
+
+a = prime(6)
+print(a)
